@@ -7,11 +7,6 @@ for (let filename = 1; filename <= 10; filename++) {
         fs.writeFile(path.join(__dirname, '/solutions', `${filename}`), '', err => {
             if (err) throw err;
             questions.forEach(question => {
-                if (question === "") {
-                    fs.appendFile(path.join(__dirname, '/solutions', `${filename}`), "", err => {
-                        if (err) throw err;
-                    })
-                }
                 fs.appendFile(path.join(__dirname, '/solutions', `${filename}`), `${eval(question)}\n`, err => {
                     if (err) throw err;
                 })
