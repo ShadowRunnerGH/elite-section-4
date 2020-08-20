@@ -1,6 +1,6 @@
 ## Exercise 1
-Source code in Exercise1 folder
+Source code [here](https://github.com/ShadowRunnerGH/elite-section-4/tree/master/Exercise1)
 ## Exercise 2
-Source code in Exercise2 folder
+Source code [here](https://github.com/ShadowRunnerGH/elite-section-4/tree/master/Exercise2)
 ## Exercise 3
-Source code in Exercise3 folder
+Source code [here](https://github.com/ShadowRunnerGH/elite-section-4/tree/master/Exercise3)
