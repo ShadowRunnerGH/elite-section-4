@@ -4,10 +4,10 @@ const API = "https://api.github.com/users";
 const link = `${API}/${username}/repos?per_page=100`
 fetch(link)
     .then(res => {
-        if(res.status === 404) {
-            throw "Username not found"
-        } else if(res.status > 404) {
-            throw "Connection not found"
+        if (res.status === 404) {
+            console.log("Username not found");
+        } else if (res.status > 404) {
+            console.log("Connection not made");
         }
         return res.json();
     })
